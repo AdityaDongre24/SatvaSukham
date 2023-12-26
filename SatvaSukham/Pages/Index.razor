@@ -1,9 +1,34 @@
 ﻿@page "/"
 
 <PageTitle>Index</PageTitle>
+<link href='https://fonts.googleapis.com/css?family=Rosario:400,300,700' rel='stylesheet' type='text/css'>
+<style>
+    body {
+        font-family: 'Rosario', sans-serif !important;
+    }
 
-<h1>SatvaSukham</h1>
+    #headerbackground {
+        height: 200px;
+        background-color: #0F2027; /* For browsers that do not support gradients */
+        background-image: linear-gradient(180deg, #ebf0f2 0%, #daebf2 70%);
+        border-radius: 20px;
+        border: 2px solid #121b1f;
+    }
+</style>
 
-Welcome to your new app.
+<div>
+    <div class="d-flex justify-content-center" id="headerbackground">
+        <div class="d-flex align-self-center text-center flex-column">
+            <img src="logo_ss.png" alt="Card image cap" style="width: 12rem; height: 12rem;">
+        </div>
+        <div class="d-flex align-self-center text-center flex-column">
+            <h1 class="font-Rosario display-4"><strong>SatvaSukham</strong></h1>
+            <h4>ONLINE YOGA CLASSES</h4>
+            <h4>STRESS RELIEF | WEIGHT LOSS</h4>
+        </div>
+    </div>
+    <div style="height:max-content">
+        
+    </div>
+</div>
 
-<SurveyPrompt Title="How is Blazor working for you?" />

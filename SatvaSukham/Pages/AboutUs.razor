@@ -1,0 +1,74 @@
+﻿@page "/aboutus"
+
+<PageTitle>About Us</PageTitle>
+
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+<style>
+    body {
+        font-family: 'Roboto', sans-serif !important;
+    }
+</style>
+
+<div class="card text-center mx-auto" style="width: 60rem;">
+    <div class="card-header">
+        <h1>About Us</h1>
+    </div>
+    <div class="card-body mx-auto r-5">
+        <div class="card" style="width: 30rem;">
+            <h1 class="p-2"><strong>MEET SHIKHA</strong></h1>
+            <img class="card-img-top" src="shikha.jpg" alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text">
+                    Shikha will be your guide on the journey to calmness and relaxation.
+                    She is our CEO, a teacher, a housewife, a mom,
+                    and last but not least, an engineer
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="card-body mx-auto">
+        <div class="card" style="width: 30rem;">
+            <h1 class="p-2"><strong>MEET SHIVHI</strong></h1>
+            <img class="card-img-top" src="shivi.jpeg" alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text">
+                    Our HR Manager with over 2 years of experience in
+                    spreding happiness.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="margin:40px"/>
+
+<div class="card text-center mx-auto" style="width: 60rem;">
+    <div class="card-header">
+        <h1>Contact Us</h1>
+    </div>
+    <div class="d-flex flex-column">
+        <div class="p-2">
+            <div class="d-flex flex-row justify-content-center mt-2">
+                <img src="logo_whatsapp.png" alt="Card image cap" style="width: 2rem; height: 2rem;">
+                <h5 class="p-2"><strong>9063064654</strong></h5>
+            </div>
+        </div>
+        <div class="p-2">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="logo_gmail.png" alt="Card image cap" style="width: 2rem; height: 2rem;">
+                <h5 class="p-2"><strong>satvasukham@gmail.com</strong></h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="margin:40px" />
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
